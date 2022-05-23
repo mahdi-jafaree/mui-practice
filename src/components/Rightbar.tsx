@@ -1,9 +1,12 @@
 import { styled } from "@mui/system";
 
+
+
 const RightBar = styled("div", { label: "rightbar" })((theme) => {
   return {
     marginTop: "4rem",
     marginBottom: "2rem",
+
 
     [theme.theme.breakpoints.down("sm")]: {
       padding: "0 1rem",
